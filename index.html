@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>王嘉铭 - 商务数据分析专业学生</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1470004914212-05527e49370b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; background-attachment: fixed; color: white;">
+
+
+  <!-- 顶部导航 -->
+  <nav class="fixed top-0 left-0 right-0 bg-black/30 backdrop-blur-md shadow-sm z-50">
+    <div class="container mx-auto px-4 py-4 flex flex-col items-center">
+      <a href="#" class="text-2xl font-bold text-white mb-4 md:mb-0">王嘉铭</a>
+      <div class="hidden md:flex space-x-8 justify-center">
+        <a href="#about" class="text-white hover:text-gray-200 transition-colors font-medium">关于我</a>
+        <a href="#skills" class="text-white hover:text-gray-200 transition-colors font-medium">专业技能</a>
+        <a href="#projects" class="text-white hover:text-gray-200 transition-colors font-medium">项目经历</a>
+        <a href="#contact" class="text-white hover:text-gray-200 transition-colors font-medium">联系方式</a>
+      </div>
+      <button class="md:hidden text-white mt-4">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 英雄区域 -->
+  <section id="about" class="min-h-screen flex items-center pt-20 relative overflow-hidden">
+    <div class="container mx-auto px-4 py-16 relative z-10">
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <div class="md:w-1/2 mb-10 md:mb-0 fade-in text-center md:text-left">
+          <h1 class="text-5xl md:text-6xl font-bold text-white mb-4">王嘉铭</h1>
+          <p class="text-2xl text-white mb-6">双鱼座 | 吃不了辣的广东人</p>
+          <p class="text-xl text-white mb-8">广东科学技术职业学院商学院<br>商务数据分析与应用专业</p>
+          <p class="text-lg text-white mb-6">专注于商务数据分析、数据挖掘和商业智能领域，致力于通过数据驱动的决策为企业创造价值。</p>
+          <p class="text-lg text-white mb-8">爱好：养猫养狗（养动物很自愈）、旅游<br>性格：又E又I的人<br>工作经验：在教培机构有一年半经验</p>
+          <div class="flex space-x-4 justify-center md:justify-start">
+            <a href="#skills" class="bg-white text-gray-800 px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors shadow-md">
+              查看技能
+            </a>
+            <a href="#contact" class="bg-black/50 text-white px-6 py-3 rounded-full font-medium hover:bg-black/70 transition-colors shadow-md">
+              联系我
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 flex justify-center">
+          <div class="w-64 h-64 rounded-full bg-white/30 backdrop-blur-md flex items-center justify-center shadow-xl floating">
+            <div class="w-56 h-56 rounded-full bg-white/80 flex items-center justify-center">
+              <div class="text-center">
+                <i data-lucide="user" class="w-20 h-20 text-white mx-auto mb-2"></i>
+                <p class="text-xl font-semibold text-white">商务数据分析</p>
+                <p class="text-white">专业学生</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专业技能 -->
+  <section id="skills" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 slide-in-left text-white">专业技能</h2>
+      
+      <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
+        <!-- 数据分析 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-left" style="animation-delay: 0.2s;">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full bg-white/30 flex items-center justify-center mr-4">
+              <i data-lucide="bar-chart-3" class="w-6 h-6 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">数据分析</h3>
+          </div>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">Excel 数据分析</span>
+                <span class="text-white">90%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">SQL 数据库查询</span>
+                <span class="text-white">85%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">Python 数据处理</span>
+                <span class="text-white">80%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 数据挖掘 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-left" style="animation-delay: 0.4s;">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full bg-white/30 flex items-center justify-center mr-4">
+              <i data-lucide="database" class="w-6 h-6 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">数据挖掘</h3>
+          </div>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">机器学习基础</span>
+                <span class="text-white">75%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">数据预处理</span>
+                <span class="text-white">85%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">特征工程</span>
+                <span class="text-white">70%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 商业智能 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-left" style="animation-delay: 0.6s;">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full bg-white/30 flex items-center justify-center mr-4">
+              <i data-lucide="lightbulb" class="w-6 h-6 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">商业智能</h3>
+          </div>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">数据可视化</span>
+                <span class="text-white">90%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">商业分析报告</span>
+                <span class="text-white">85%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="font-medium text-white">决策支持</span>
+                <span class="text-white">80%</span>
+              </div>
+              <div class="w-full bg-white/30 rounded-full h-2">
+                <div class="skill-bar bg-white h-2 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目经历 -->
+  <section id="projects" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 slide-in-right text-white">项目经历</h2>
+      
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+        <!-- 项目1 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-right" style="animation-delay: 0.2s;">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-3">
+              <i data-lucide="shopping-cart" class="w-5 h-5 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">电商平台销售数据分析</h3>
+          </div>
+          <p class="text-white mb-4">使用SQL和Excel分析电商平台的销售数据，识别销售趋势和客户行为模式，为营销决策提供数据支持。</p>
+          <div class="mb-4">
+            <h4 class="font-medium text-white mb-2">使用技术</h4>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">SQL</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">Excel</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">数据可视化</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-medium text-white mb-2">项目成果</h4>
+            <p class="text-white text-sm">通过分析发现了销售高峰期和热门产品，帮助平台优化库存管理和促销策略，提升了15%的销售额。</p>
+          </div>
+        </div>
+        
+        <!-- 项目2 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-right" style="animation-delay: 0.4s;">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-3">
+              <i data-lucide="users" class="w-5 h-5 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">客户流失预测模型</h3>
+          </div>
+          <p class="text-white mb-4">使用Python和机器学习算法构建客户流失预测模型，识别可能流失的客户并分析流失原因。</p>
+          <div class="mb-4">
+            <h4 class="font-medium text-white mb-2">使用技术</h4>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">Python</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">Scikit-learn</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">机器学习</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-medium text-white mb-2">项目成果</h4>
+            <p class="text-white text-sm">模型准确率达到85%，帮助企业提前识别高风险客户，制定针对性的 retention 策略，降低了10%的客户流失率。</p>
+          </div>
+        </div>
+        
+        <!-- 项目3 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-right" style="animation-delay: 0.6s;">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-3">
+              <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">社交媒体数据挖掘</h3>
+          </div>
+          <p class="text-white mb-4">抓取和分析社交媒体平台的用户评论数据，了解用户情感和产品反馈，为品牌策略提供参考。</p>
+          <div class="mb-4">
+            <h4 class="font-medium text-white mb-2">使用技术</h4>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">Python</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">网络爬虫</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">情感分析</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-medium text-white mb-2">项目成果</h4>
+            <p class="text-white text-sm">分析了超过10,000条用户评论，识别出产品的优势和改进空间，为产品团队提供了详细的用户反馈报告。</p>
+          </div>
+        </div>
+        
+        <!-- 项目4 -->
+        <div class="card rounded-xl p-6 shadow-lg slide-in-right" style="animation-delay: 0.8s;">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-3">
+              <i data-lucide="trending-up" class="w-5 h-5 text-white"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-white">零售行业销售预测</h3>
+          </div>
+          <p class="text-white mb-4">基于历史销售数据，使用时间序列分析方法预测未来销售趋势，帮助企业优化库存和人力资源规划。</p>
+          <div class="mb-4">
+            <h4 class="font-medium text-white mb-2">使用技术</h4>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">Python</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">时间序列分析</span>
+              <span class="bg-white/30 text-white text-xs font-medium px-3 py-1 rounded-full">数据可视化</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-medium text-white mb-2">项目成果</h4>
+            <p class="text-white text-sm">预测模型的平均绝对误差控制在5%以内，为企业提供了准确的销售预测，帮助降低了库存成本。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系方式 -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 fade-in text-white">联系方式</h2>
+      
+      <div class="max-w-4xl mx-auto card rounded-2xl p-8 shadow-lg">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="slide-in-left">
+            <h3 class="text-2xl font-semibold text-white mb-6">联系信息</h3>
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-4">
+                  <i data-lucide="mail" class="w-5 h-5 text-white"></i>
+                </div>
+                <span class="text-white">wangjiaming@example.com</span>
+              </div>
+              <div class="flex items-center">
+                <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-4">
+                  <i data-lucide="phone" class="w-5 h-5 text-white"></i>
+                </div>
+                <span class="text-white">+86 123 4567 8910</span>
+              </div>
+              <div class="flex items-center">
+                <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-4">
+                  <i data-lucide="linkedin" class="w-5 h-5 text-white"></i>
+                </div>
+                <a href="#" class="text-white hover:underline">LinkedIn</a>
+              </div>
+              <div class="flex items-center">
+                <div class="w-10 h-10 rounded-full bg-white/30 flex items-center justify-center mr-4">
+                  <i data-lucide="github" class="w-5 h-5 text-white"></i>
+                </div>
+                <a href="#" class="text-white hover:underline">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="slide-in-right">
+            <h3 class="text-2xl font-semibold text-white mb-6">留言</h3>
+            <form>
+              <div class="mb-4">
+                <label for="name" class="block text-white mb-2">姓名</label>
+                <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-white/30 bg-white/10 text-white focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-white mb-2">邮箱</label>
+                <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-white/30 bg-white/10 text-white focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent">
+              </div>
+              <div class="mb-6">
+                <label for="message" class="block text-white mb-2">留言内容</label>
+                <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-white/30 bg-white/10 text-white focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"></textarea>
+              </div>
+              <button type="submit" class="w-full bg-white/30 text-white py-3 rounded-lg font-medium hover:bg-white/50 transition-colors shadow-md">
+                发送留言
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="bg-black/30 backdrop-blur-md text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="text-center">
+        <p class="text-xl font-semibold mb-2">王嘉铭 - 商务数据分析与应用专业</p>
+        <p class="text-white/80">© 2026 个人介绍网站</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 自定义脚本 -->
+  <script src="script.js"></script>
+</body>
+</html>
